@@ -1,0 +1,106 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: black;
+  padding: 20px;
+}
+.tarjeta {
+  background: rgb(95, 95, 95);
+  width: 100%;
+  max-width: 420px;
+  border-radius: 16px;
+  padding: 35px 30px;
+}
+.top {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  margin-bottom: 25px;
+}
+.logo {
+  width: 50px;
+  height: 50px;
+  background: red;
+  color: rgb(255, 255, 255);
+  border-radius: 12px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 24px;
+  font-weight: 700;
+}
+.top h1 {
+  font-size: 22px;
+  color: white;
+  margin-bottom: 4px;
+}
+.top p {
+  font-size: 13px;
+  color: gray;
+}
+.label {
+  display: block;
+  font-size: 13px;
+  font-weight: 600;
+  margin-bottom: 5px;
+  margin-top: 15px;
+}
+.contraseña {
+  width: 100%;
+  padding: 12px 14px;
+  border: 2px solid gray;
+  border-radius: 10px;
+  font-size: 14px;
+}
+.niveles {
+  display: flex;
+  gap: 8px;
+  margin: 20px 0;
+}
+.nivelRojo {
+  background: rgb(255, 71, 71);
+  color: white;
+  border: none;
+  padding: 10px 16px;
+  border-radius: 25px;
+  font-size: 13px;
+  font-weight: 600;
+}
+.nivel {
+  border: 2px solid gray;
+  padding: 10px 16px;
+  border-radius: 25px;
+  font-size: 13px;
+  font-weight: 600;
+}
+.btn {
+  background: gray;
+  margin-top: 20px;
+  width: 100%;
+  color: white;
+  border: none;
+  padding: 14px;
+  border-radius: 10px;
+  font-size: 16px;
+  font-weight: 600;
+}
+footer {
+  margin-top: 20px;
+  text-align: center;
+  color: black;
+  font-size: 14px;
+}
+footer p {
+  color: white;
+}
+footer a {
+  color: rgb(255, 0, 0);
+  font-weight: 600;
+}
